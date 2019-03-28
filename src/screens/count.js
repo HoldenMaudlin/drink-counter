@@ -12,7 +12,7 @@ class CountScreen extends React.Component {
     render() {
         return(
             <View>
-                <Name></Name>
+                <Username></Username>
                 <Count></Count>
                 <Plus></Plus>
                 <Minus></Minus>

@@ -5,9 +5,9 @@ import { createSwitchNavigator } from 'react-navigation'
 import AuthScreen from '../screens/auth'
 import MainStackNav from '../nav/main'
 
-const MainStackNav = createStackNavigator({
+const MainSwitchNav = createSwitchNavigator({
     Auth: AuthScreen,
     Start: MainStackNav,
 })
 
-export default MainStackNav
+export default MainSwitchNav
