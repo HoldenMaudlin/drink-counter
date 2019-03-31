@@ -7,7 +7,7 @@ import StartScreen from '../screens/start'
 import CountScreen from '../screens/count'
 
 const MainStackNav = createStackNavigator({
-    Start: StartScreen,
+    //Start: StartScreen,
     Count: CountScreen
 })
 

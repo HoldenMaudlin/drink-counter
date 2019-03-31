@@ -15,13 +15,21 @@ import Terms from '../components/terms'
 import AgreeButton from '../components/agreeButton'
 
 class AuthScreen extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
+    static navigationOptions = {
+        header: null
+    }
+
     render() {
         return(
             <View style={styles.container}>
                 <SafeAreaView>               
                     <Welcome></Welcome>
                     <Terms></Terms>
-                    <AgreeButton></AgreeButton>
+                    <AgreeButton navigation={this.props.navigation}></AgreeButton>
                 </SafeAreaView>
             </View>
         )

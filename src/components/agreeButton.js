@@ -8,10 +8,14 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 
 class AgreeButton extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return(
             <View>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Start')}>
                     <Text>
                         Agree
                     </Text>

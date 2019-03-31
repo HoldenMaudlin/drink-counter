@@ -6,7 +6,7 @@ import AuthScreen from '../screens/auth'
 import MainStackNav from '../nav/main'
 
 const MainSwitchNav = createSwitchNavigator({
-    Auth: AuthScreen,
+    //Auth: AuthScreen,
     Start: MainStackNav,
 })
 
