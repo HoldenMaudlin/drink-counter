@@ -156,7 +156,7 @@ class CountScreen extends React.Component {
                     <Log data={this.state.log}></Log>
                 </View>
                 <AdMobBanner
-                    adUnitID="ca-app-pub-3940256099942544/6300978111" // Test ID, Replace with your-admob-unit-id
+                    adUnitID="ca-app-pub-6030163668836471/9820720679" // Test ID, Replace with your-admob-unit-id
                     testDeviceID="phone"
                     onDidFailToReceiveAdWithError={this.bannerError}
                 />
