@@ -17,7 +17,7 @@ class StartScreen extends React.Component {
 
     static navigationOptions = {
         header: null
-    }
+    } 
 
     render() {
         return(
